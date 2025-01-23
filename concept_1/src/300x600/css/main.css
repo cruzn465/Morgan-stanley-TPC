@@ -56,7 +56,7 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #c1_2x {
-	left:40px;
+	left:31px;
 	top:37px;
 	width:198px;
 	height:60px;
@@ -65,7 +65,7 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #c2_2x {
-	left:41px;
+	left:32px;
 	top:105px;
 	width:181px;
 	height:27px;
@@ -74,7 +74,7 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #c3_2x {
-	left:42px;
+	left:33px;
 	top:139px;
 	width:201px;
 	height:26px;
@@ -92,10 +92,10 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #cta_2x {
-	left:39px;
-	top:175px;
-	width:39px;
-	height:20px;
+	left:31px;
+	top:177px;
+	width:120px;
+	height:28px;
 	background-image:url(../img/cta_2x.png);
-	background-size:39px 20px;
+	background-size:120px 28px;
 }

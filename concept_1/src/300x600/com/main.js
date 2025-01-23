@@ -50,6 +50,14 @@ function addListeners(){
             tl.restart();
     })
     */
+       // Mouseover functionality for container
+    //    container.addEventListener('mouseover', function() {
+    //     TweenLite.to(cta_2x, 0.3, {x:4, ease:Power2.easeOut});
+    // });
+
+    // container.addEventListener('mouseout', function() {
+    //     TweenLite.to(cta_2x, 0.3, {x:0,});
+    // });
 }
 
 //ANIMATE
@@ -59,27 +67,27 @@ function animate(){
     //timeline animation here
     tl = new TimelineLite()
     // tl = new TimelineLite({repeat: -1, repeatDelay: 1}); // Repeat infinitely with a 1-second delay between repetitions
-    
+    let start = 0.7
     tl 
-    .from(bg_2x, 6.5, {scale:1.63,x:-11, y:-27,ease:Power2.easeOut}, 0)
+    .from(bg_2x, 6.5, {scale:1.63, x:-11, y:-27, ease:Power2.easeOut}, 0)
     .to(left_tri, 2, {x: -dimensions.width, ease: Power2.easeInOut}, 0)
     .to(right_tri, 2, {x: dimensions.width, ease: Power2.easeInOut}, 0)
 
     // copy & logo
-    .from(c1_2x, 1.3, {opacity:0,ease: Power2.easeInOut}, .3)
+    .from(c1_2x, 1.3, {opacity:0,ease: Power2.easeInOut},start)
 
     // slow shine over "vision"
 
     // copy & logo cont.
-    .from(c2_2x, 1.3, {opacity:0,ease: Power2.easeInOut}, 1.7)
-    .from(logo_2x, 1.5, {opacity:0,ease: Power4.easeIn}, 1.7)
+    .from(c2_2x, 1.3, {opacity:0,ease: Power2.easeInOut},start+1.4) //copy+logo+1.4
+    .from(logo_2x, 1.5, {opacity:0,ease: Power4.easeIn},start+1.4)
 
-    .from(c3_2x, 1.3, {opacity:0,ease: Power2.easeInOut}, 2)
+    .from(c3_2x, 1.3, {opacity:0,ease: Power2.easeInOut},start+1.7) //copy+logo+1.7
 
     // slow shine over "grit"
 
 
-    .from(cta_2x, 1.3, {opacity:0,ease: Power2.easeInOut}, 3)
+    .from(cta_2x, 1.3, {opacity:0,ease: Power2.easeInOut},start+2.7) //copy+logo+2.7
 
 
 

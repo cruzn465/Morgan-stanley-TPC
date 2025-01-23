@@ -1,19 +1,10 @@
 
 
-#c2_2x {
-	left:37px;
-	top:105px;
-	width:181px;
-	height:21px;
-	background-image:url(../img/c2_2x.png);
-	background-size:181px 21px;
-}
-
-#c2a_2x {
-	left:145px;
-	top:105px;
-	width:41px;
-	height:27px;
-	background-image:url(../img/c2a_2x.png);
-	background-size:41px 27px;
+#cta_2x {
+	left:31px;
+	top:177px;
+	width:120px;
+	height:28px;
+	background-image:url(../img/cta_2x.png);
+	background-size:120px 28px;
 }
