@@ -22,9 +22,6 @@ body { margin:0px 0px; padding:0px; }
 
 
 /* manual style start */
-.fpo {
-	opacity: .5;
-}
 .sheen{
 	opacity:.8;
 	position:relative;
@@ -34,52 +31,6 @@ body { margin:0px 0px; padding:0px; }
 }
 .overflow{
 	overflow:hidden;
-}
-
-#c3org_2x {
-	left:16px;
-	top:110px;
-	width:100px;
-	height:21px;
-	background-image:url(../img/c3org_2x.png);
-	background-size:100px 21px;
-}
-
-#c3white_2x {
-	left:16px;
-	top:110px;
-	width:100px;
-	height:21px;
-	background-image:url(../img/c3white_2x.png);
-	background-size:100px 21px;
-}
-.white_container{
-	top:0;
-	left:0;
-	width:300px;
-	height:600px;
-	overflow:hidden;
-	-webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-}
-.white_container_2{
-	top:0;
-	left:0;
-	width:300px;
-	height:600px;
-	overflow:hidden;
-	-webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-}
-
-.tangiberry_container{
-	top:0;
-	left:0;
-	width:300px;
-	height:600px;
-	overflow:hidden;
-	-webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000px;
 }
 
 #bg_2x {
@@ -107,18 +58,9 @@ body { margin:0px 0px; padding:0px; }
 	background-image:url(../img/right_tri.png);
 }
 
-#bg_fpo_2x {
-	left:0px;
-	top:0px;
-	width:970px;
-	height:250px;
-	background-image:url(../img/bg_fpo_2x.jpg);
-	background-size:970px 250px;
-}
-
 #c1_2x {
-	left:63px;
-	top:39px;
+	left:64px;
+	top:39.5px;
 	width:284px;
 	height:70px;
 	background-image:url(../img/c1_2x.png);
@@ -127,20 +69,11 @@ body { margin:0px 0px; padding:0px; }
 
 #c2_2x {
 	left:121px;
-	top:79px;
+	top:78.3px;
 	width:266px;
 	height:71px;
 	background-image:url(../img/c2_2x.png);
 	background-size:266px 71px;
-}
-
-#c3_2x {
-	left:121px;
-	top:119px;
-	width:266px;
-	height:31px;
-	background-image:url(../img/c3_2x.png);
-	background-size:266px 31px;
 }
 
 #logo_2x {
@@ -162,29 +95,20 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #c1a_2x {
-	left:125px;
-	top:39px;
+	left:125.5px;
+	top:39.5px;
 	width:82px;
 	height:25px;
 	background-image:url(../img/c1a_2x.png);
 	background-size:82px 25px;
 }
 
-#c1a_white_2x {
-	left:92px;
-	top:35px;
-	width:75px;
-	height:26px;
-	background-image:url(../img/c1a_white_2x.png);
-	background-size:75px 26px;
-	opacity: 0.5;
-}
-
 #c2a_2x {
-	left:63px;
-	top:119px;
+	left:63.9px;
+	top:119.4px;
 	width:48px;
 	height:31px;
 	background-image:url(../img/c2a_2x.png);
 	background-size:48px 31px;
 }
+

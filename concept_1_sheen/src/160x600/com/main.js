@@ -69,7 +69,8 @@ function animate(){
     // tl = new TimelineLite({repeat: -1, repeatDelay: 1}); // Repeat infinitely with a 1-second delay between repetitions
     let start = 0.7
     tl 
-    .from(bg_2x, 6.5, {scale:1.4,x:-40, y:-80,ease:Power2.easeOut}, 0)
+    // .from(bg_2x, 6.5, {scale:1.4,x:-40, y:-80,ease:Power2.easeOut}, 0)
+    .from(bg_2x, 6.5, {scale:1.3,x:-20, y:-40,ease:Power2.easeOut}, 0)
     .to(left_tri, 2, {y:-dimensions.height, ease: Power2.easeInOut}, 0)
     .to(right_tri, 2, {y:dimensions.height, ease: Power2.easeInOut}, 0)
 

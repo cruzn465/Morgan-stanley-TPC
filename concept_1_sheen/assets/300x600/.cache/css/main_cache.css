@@ -1,1 +1,10 @@
 
+
+#bg_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:600px;
+	background-image:url(../img/bg_2x.jpg);
+	background-size:300px 600px;
+}
