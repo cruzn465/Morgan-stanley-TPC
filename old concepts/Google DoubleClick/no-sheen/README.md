@@ -5,12 +5,12 @@
 
 ###USING THE TEMPLATE:
 
-	⁃ Not sure why but git isn't seeing the img folder so before using gulp, simply add a folder named "img" inside of assets/(size of banner)/.cache
+* Note: Add a folder named "img" inside of assets/(size of banner)/.cache if cloning because git doesn't see this folder.
 
-	⁃ The entire delieverable banner is contained inside of the 'src' folder, utilities are not required.
-	⁃ There are three subdirectories in src, one for the js (com), one for the css, and another for the images (img).
-	⁃ The only library this template pulls from is the Greensock tween engine, everything else is native js.
-	⁃ The base template uses Greensock's TimelineLite, but CSSPlugin, EasePack, and TweenLite are also supported.
+* The entire delieverable banner is contained inside of the 'src' folder, utilities are not required.
+* There are three subdirectories in src, one for the js (com), one for the css, and another for the images (img).
+* The only library this template pulls from is the Greensock tween engine and PurgeCSS, everything else is native js.
+* The base template uses Greensock's TimelineLite, but CSSPlugin, EasePack, and TweenLite are also supported.
 
 DOM:
 	•	The head contains your script calls, a template title tag, and a stylesheet link, the clicktag variable definition (default is DCM), as well as an important meta tag that determines the sie of the ad.
